@@ -1,0 +1,24 @@
+#container {text-align: left;width: 990px; margin:auto;}
+#header {background-color: #003366; height: 180px;	margin-bottom:3px;}
+#menungang {background-color: #333333;	height: 60px; margin-bottom:3px;}
+#content1{ width:500px; height:340px; background-color:#999933; float:left}
+#info{ float:left; width:485px; height:30px; background-color:#996600; 
+margin-left:5px; margin-bottom:3px;}
+#content2 {height:307px; width:280px; background-color:#99CC66; float:left; margin-left:5px;}
+#content3{ background:#036; min-height:1003px; float:right; width:200px;}
+#quangcao{ height:90px; width:785px; background-color:#990000; clear:left; 
+		  margin-top:3px; float:left; margin-bottom:3px}
+#content4 {background-color:#096;float:left; min-height:600px;width:785px;}
+#footer { background-color:#996633;clear: both;height: 150px;}
+#baiviet_ct { text-align:justify; margin-left:10px; margin-right:10px}
+#baiviet_ct h4.tieude a{text-decoration:none; color:#80FF00; font-size:18px}
+#baiviet_ct  div.xem { color:#C8FE2E; font-style:italic; text-align:right }
+#baiviet_ct  div.tomtat { color:#D0FA58; font-style: italic;  }
+#baiviet_ct  div.tomtat:first-letter{ color:#F7FE2E; font-size:32px; }
+#baiviet_ct  hr {background-color:#DF7401; height:5px}
+#baitrongloai { margin-left:10px; margin-right:10px; text-align:justify}
+#baitrongloai h4 a { color:#80FF00; text-decoration:none;}
+#baitrongloai h4 a:hover { text-decoration:underline;}
+#baitrongloai img { width:180px; height:140px; margin-right:10px; margin-top:15px;}
+#baitrongloai .motbai { height:170px; overflow:hidden; border-bottom: solid 1px #A5DF00;  }
+#baitrongloai h3 { background-color: #03C; margin: 0 -10px 0 -10px; padding: 5px; text-transform: uppercase; color:#FFF;}
