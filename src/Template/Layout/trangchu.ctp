@@ -11,9 +11,11 @@
 <div id="container">
    <div id="header">  ádsad</div>
    <div id="menungang"><?php echo $this->element('menu');?>  </div>
-	<div id="content1">  </div>
+    <?php if ($this->request->action=="index") {?>
+	<div id="content1"><?php echo $this->element('bainoibat');?>  </div>
    <div id="info">  </div>
-   <div id="content2">  </div>    
+   <div id="content2">  </div>  
+   <?php } //if?>  
    <div id="content3"><?php echo $this->element('bando');?>  </div>
    <div id="quangcao">  </div>
    <div id="content4"><?php echo $this->fetch('content'); ?> </div>   

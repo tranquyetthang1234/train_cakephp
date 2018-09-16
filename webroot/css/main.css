@@ -22,3 +22,39 @@ margin-left:5px; margin-bottom:3px;}
 #baitrongloai img { width:180px; height:140px; margin-right:10px; margin-top:15px;}
 #baitrongloai .motbai { height:170px; overflow:hidden; border-bottom: solid 1px #A5DF00;  }
 #baitrongloai h3 { background-color: #03C; margin: 0 -10px 0 -10px; padding: 5px; text-transform: uppercase; color:#FFF;}
+#baimoi{ width:785px; }
+#baimoi .rows { width:385px; float:left; margin-bottom:5px; height:290px;  
+	     margin-left:5px; margin-top:5px; background-color:#669999; }
+#baimoi .loaitin{ background-color:#333333; color:#FFF; 
+		padding-top:5px; padding-bottom:5px; font-size:18px; margin:0}
+#baimoi .loaitin a{ text-decoration: none; color:#01DF3A; 
+        font-weight:bold; font-size:18px; text-transform:uppercase  }
+#baimoi .loaitin a:hover { text-decoration:underline}
+#baimoi .tindau {color:#399; height:145px;overflow:hidden;
+        background-color:#033; text-align:justify}
+#baimoi .tindau p{ text-align:justify; 
+		margin-right:5px; margin-left:5px; margin-bottom:0px}
+#baimoi .tindau img { margin-right:5px; margin-top:5px;
+         width:120px; height:130px; }
+#baimoi .tindau a {text-decoration:none; color:#FFFF00;font-weight:bold} 
+#baimoi .tindau a:hover{ text-decoration:underline; color:#C09}
+#baimoi .tintieptheo {  background-color:#CCCC99; white-space:nowrap; 
+         overflow:hidden  }
+#baimoi .tintieptheo p { margin-top:0px; margin-bottom:0px; 
+		padding-left:20px; padding-top:5px; padding-bottom:5px; 
+		background-image:url(/cakeNews/img/icons/b.gif); 
+		background-repeat:no-repeat; background-position: 5px 10px;}
+#baimoi .tintieptheo a{ text-decoration:none; color:#036}
+#baimoi .tintieptheo a:hover{text-decoration:underline; color:#C09}
+#bainoibat { width:500px}
+#bainoibat #top1 { text-align:justify; color:#000033; 
+      height:150px; font-size:18px}
+#bainoibat #top1 p{ margin:0}
+#bainoibat #top1 img{ margin-right:5px; width:170px; height:140px}
+#bainoibat #top1 a{ color:#006699; font-size:20px; text-decoration:none}
+#bainoibat #top3 { margin-top:5px} 
+#bainoibat #top3 div { float:left; width:32%; text-align:center;
+      border:dotted 1px #CCFF00; height:150px; overflow:hidden; 
+      padding-top:5px; margin-left:3px;}
+#bainoibat #top3 a{ text-decoration:none; color:#006699}
+#bainoibat #top3 img { width:130px; height:100px}

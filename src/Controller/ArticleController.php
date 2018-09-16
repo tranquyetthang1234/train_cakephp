@@ -9,10 +9,14 @@ class ArticleController extends AppController {
 	->where(array('anhien' => 1,'lang'=>'vi','idcha'=>0));
 	$this->set('lt', $lt);
 	$bv= TableRegistry::get('baiviet');
-	
+
+	$bainb=$bv->find()
+	->select(['idbv','tieude','tomtat','urlhinh'])
+	->where(array('anhien' => 1,'noibat'=>1))
+	->limit(4);
+	$this->set('bainb',$bainb->toArray());
 
 	$this->set('bv', $bv);
-			
 		$this->render('baimoi' ,'trangchu' );
 	}
 	public function b($id=0){
@@ -39,17 +43,18 @@ class ArticleController extends AppController {
 		}
 		else $tenloai="";	
 		$this->set('tenloai', $tenloai);
-		/*$bv = TableRegistry::get('Baiviet');
+		$bv = TableRegistry::get('Baiviet');
 		$btl = $bv->find()
 			->select(['idbv','tieude','tomtat','ngay','solanxem','urlhinh'])
 			->where(['idloai' => $idloai])->order(['idbv'=>'DESC'])->limit(5);
-		$this->set('btl',$btl); */		
-		$this->paginate=array('fields'=>array('idbv','tieude','tomtat','ngay','solanxem','urlhinh'),
+		
+		/*$this->paginate=array('fields'=>array('idbv','tieude','tomtat','ngay','solanxem','urlhinh'),
 				'conditions'=>array('idloai'=>$idloai),
 				'order'=>array('idbv' => 'DESC'), 
 		       'limit'=>3 
-		); 
-		$this->set('btl', $this->paginate());		
+		); */	
+		$this->set('btl',$btl); 	
+		//$this->set('btl', $this->paginate());		
 		$this->viewBuilder()->layout('trangchu'); 
 		}//baitrongloai
 
